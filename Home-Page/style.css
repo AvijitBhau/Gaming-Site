@@ -1,0 +1,104 @@
+.header li {
+    float: left;
+    list-style: none;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+
+.search {
+    color: white;
+    text-align: end;
+    padding: 5px 250px;
+}
+
+.search input {
+    padding: 4px 10px;
+    width: 22%;
+    border-radius: 20px;
+}
+
+.search button {
+    padding: 4.6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.search button:hover {
+    cursor: pointer;
+    color: red;
+    transition: 0.4s ease;
+}
+
+.btn {
+    color: white;
+    text-align: end;
+    padding-right: 50px;
+    margin-top: -35px;
+    padding-left: 10px;
+}
+
+#btn2 {
+    padding: 6.6px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.btn1 {
+    padding: 6.6px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: default;
+}
+
+.btn1:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#fix-bar {
+    position: sticky;
+    top: 0;
+}
+
+/* Overlay class is defined for a separate overlaying dark layer which darkens the background and z-index helps all the contents to come over the page */
+
+.overlay { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+

@@ -1,0 +1,156 @@
+.header li {
+    float: left;
+    list-style: none;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-top: 8px;
+    font-size: medium;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.search {
+    color: white;
+    text-align: end;
+    padding: 5px 290px;
+}
+
+.search input {
+    padding: 4.6px 10px;
+    width: 21%;
+    border-radius: 20px;
+}
+
+.search button {
+    padding: 4.6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.search button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.btn {
+    color: white;
+    text-align: end;
+    padding-right: 50px;
+    margin-top: -35px;
+    padding-left: 10px;
+}
+
+#btn2 {
+    padding: 6.6px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+}
+
+.btn1 {
+    padding: 6.6px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+}
+
+.btn1:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#fix-bar {
+    position: sticky;
+    top: 0;
+}
+
+/* Overlay class is defined for a separate overlaying dark layer which darkens the background and z-index helps all the contents to come over the page */
+
+.overlay { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.content1 {
+    height: 500px;
+}
+
+#gaming-pc {
+    border-radius: 40px;
+}
+
+.inner-cont {
+    color: rgb(228, 255, 75);
+    /* border: 2px solid yellow; */
+    margin: 179px 254px;
+    padding: 0px 0px;
+    width: 66%;
+    height: 57%;
+    text-align: center;
+    transition: 0.6s;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    background: linear-gradient(to left, rgb(255, 26, 26), rgb(0, 238, 255), rgb(0, 255, 0), rgb(255, 84, 112), rgb(255, 255, 0));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* .inner-cont:hover {
+    color: #00ff32;
+
+    background: linear-gradient(to left, rgb(255, 26, 26), rgb(0, 238, 255), rgb(0, 255, 0), rgb(255, 84, 112), rgb(255, 255, 0));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+} */
+
+#avail-btn {
+    position: relative;
+    top: -50%;
+    left: 37%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 18px 48px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(35deg, blue, purple, red) 1;
+    transition: 0.6s ease;
+}
+
+#avail-btn:hover {
+    cursor: pointer;
+    color: rgb(3, 0, 0);
+    background: linear-gradient(45deg, #ff76df, gray, cyan);
+    transition: 0.6s ease all;
+}

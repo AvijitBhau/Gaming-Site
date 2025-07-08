@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Sign-Up Now</title>
+    <style>
+        body {
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            background-image: url(./assets/bg-gaming-sign-up.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .content {
+            border: 2px solid rgb(64, 64, 64);
+            text-align: center;
+            width: 500px;
+            margin: 40px auto;
+            padding: 40px 20px;
+            background-color: rgb(230, 250, 255);
+
+        }
+
+        #header {
+            padding: 50px 50px;
+        }
+
+        #header input {
+            padding: 12px;
+            width: 380px;
+        }
+
+        #btn {
+            margin-left: 15px;
+            border-radius: 4px;
+            background-color: #5050e8;
+            color: white;
+            border: 2px solid rgb(83, 83, 255);
+        }
+
+        #btn:hover {
+            cursor: pointer;
+            background-color: rgb(52, 67, 174);
+            color: rgb(115, 255, 0);
+        }
+
+        .cont1 {
+            margin-bottom: 18px;
+            padding: 4px 40px;
+        }
+
+        .cont2 {
+            margin: -177px;
+            margin-top: 20px;
+            margin-bottom: 55px;
+        }
+
+        .nav {
+            padding: 12px;
+            width: 382px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>CREATE ACCOUNT</h2>
+        <div id="header">
+
+            <form action="./registered.html">
+
+                <input class="cont1 nav" type="text" name="myName" id="name" placeholder="Rajat Agarwal" required><br>
+                <input class="cont1 nav" type="email" name="myMail" id="mail" placeholder="abc@gmail.com" required><br>
+                <input class="cont1 nav" type="number" name="myPhone" id="phone" placeholder="+91 123-456-7890"
+                    required><br>
+                <input class="cont1 nav" type="password" name="myPass" id="pass" placeholder="Password" required><br>
+                <div class="footer">
+                    <input class="cont2" type="checkbox" name="terms" id="terms" checked>
+                    <a>I agree all statements in <a href="#">Terms & Conditions</a></a><br>
+                    <input id="btn" type="submit" value="SIGN UP">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
